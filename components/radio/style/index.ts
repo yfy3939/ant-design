@@ -256,7 +256,7 @@ const getRadioBasicStyle: GenerateStyle<RadioToken, CSSObject> = (token) => {
       },
 
       // ===================== Hover =====================
-      [`&:hover:not(${componentCls}-disabled) ${componentCls}`]: {
+      [`&:hover:not(${componentCls}-wrapper-disabled) ${componentCls}`]: {
         borderColor: colorPrimary,
       },
 
